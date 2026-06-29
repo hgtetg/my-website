@@ -1,1 +1,1 @@
-console.log("Website Loaded");
+console.log("IQ Med School Loaded");
