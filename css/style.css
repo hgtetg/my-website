@@ -125,3 +125,150 @@ nav a:hover{
 
     background:#1D4ED8;
 }
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:90px 60px;
+
+    gap:60px;
+}
+
+.hero-left{
+
+    flex:1;
+}
+
+.badge{
+
+    display:inline-block;
+
+    background:#DBEAFE;
+
+    color:#2563EB;
+
+    padding:8px 16px;
+
+    border-radius:50px;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+}
+
+.hero h1{
+
+    font-size:64px;
+
+    line-height:1.1;
+
+    margin-bottom:25px;
+}
+
+.hero h1 span{
+
+    color:#2563EB;
+}
+
+.hero p{
+
+    font-size:20px;
+
+    color:#475569;
+
+    line-height:1.8;
+
+    max-width:600px;
+
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+}
+
+.primary-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:16px 34px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+}
+
+.secondary-btn{
+
+    border:2px solid #2563EB;
+
+    color:#2563EB;
+
+    text-decoration:none;
+
+    padding:16px 34px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+}
+
+.hero-right{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+}
+
+.hero-card{
+
+    width:420px;
+
+    height:320px;
+
+    background:linear-gradient(135deg,#2563EB,#60A5FA);
+
+    border-radius:24px;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    box-shadow:0 25px 50px rgba(37,99,235,.25);
+}
+
+.hero-card h2{
+
+    font-size:38px;
+
+    margin-bottom:20px;
+}
+
+.hero-card p{
+
+    color:white;
+
+    max-width:280px;
+}
